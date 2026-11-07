@@ -1,0 +1,67 @@
+[
+  {
+    "id": "github",
+    "name": "GitHub",
+    "profileUrl": "https://github.com/{username}",
+    "checkUrl": "https://api.github.com/users/{username}",
+    "mode": "http_status",
+    "notes": "Official public REST API."
+  },
+  {
+    "id": "gitlab",
+    "name": "GitLab.com",
+    "profileUrl": "https://gitlab.com/{username}",
+    "checkUrl": "https://gitlab.com/api/v4/users?username={username}",
+    "mode": "json_nonempty_array",
+    "notes": "Official public REST API."
+  },
+  {
+    "id": "hackernews",
+    "name": "Hacker News",
+    "profileUrl": "https://news.ycombinator.com/user?id={username}",
+    "checkUrl": "https://hacker-news.firebaseio.com/v0/user/{username}.json",
+    "mode": "json_nonnull",
+    "notes": "Official public Firebase API, documented by Y Combinator."
+  },
+  {
+    "id": "devto",
+    "name": "DEV Community",
+    "profileUrl": "https://dev.to/{username}",
+    "checkUrl": "https://dev.to/api/users/by_username?url={username}",
+    "mode": "http_status",
+    "notes": "Official public REST API."
+  },
+  {
+    "id": "keybase",
+    "name": "Keybase",
+    "profileUrl": "https://keybase.io/{username}",
+    "checkUrl": "https://keybase.io/_/api/1.0/user/lookup.json?username={username}",
+    "mode": "json_path_nonempty_array",
+    "path": "them",
+    "notes": "Official public lookup API."
+  },
+  {
+    "id": "dockerhub",
+    "name": "Docker Hub",
+    "profileUrl": "https://hub.docker.com/u/{username}",
+    "checkUrl": "https://hub.docker.com/v2/users/{username}/",
+    "mode": "http_status",
+    "notes": "Official public REST API."
+  },
+  {
+    "id": "codeberg",
+    "name": "Codeberg",
+    "profileUrl": "https://codeberg.org/{username}",
+    "checkUrl": "https://codeberg.org/api/v1/users/{username}",
+    "mode": "http_status",
+    "notes": "Official public Gitea REST API."
+  },
+  {
+    "id": "mastodon_social",
+    "name": "Mastodon (mastodon.social)",
+    "profileUrl": "https://mastodon.social/@{username}",
+    "checkUrl": "https://mastodon.social/api/v1/accounts/lookup?acct={username}",
+    "mode": "http_status",
+    "notes": "Official public REST API."
+  }
+]

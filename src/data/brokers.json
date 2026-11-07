@@ -1,0 +1,17 @@
+[
+  { "id": "whitepages", "name": "Whitepages", "searchUrl": "https://www.whitepages.com/", "optOutUrl": "https://www.whitepages.com/suppression-requests", "difficulty": "medium" },
+  { "id": "spokeo", "name": "Spokeo", "searchUrl": "https://www.spokeo.com/", "optOutUrl": "https://www.spokeo.com/opt_out", "difficulty": "low" },
+  { "id": "beenverified", "name": "BeenVerified", "searchUrl": "https://www.beenverified.com/", "optOutUrl": "https://www.beenverified.com/app/optout/search", "difficulty": "low" },
+  { "id": "mylife", "name": "MyLife", "searchUrl": "https://www.mylife.com/", "optOutUrl": "https://www.mylife.com/privacy-policy#howtocorrectoropt-outofyourinformation", "difficulty": "high" },
+  { "id": "peoplefinders", "name": "PeopleFinders", "searchUrl": "https://www.peoplefinders.com/", "optOutUrl": "https://www.peoplefinders.com/manage/privacy", "difficulty": "medium" },
+  { "id": "radaris", "name": "Radaris", "searchUrl": "https://radaris.com/", "optOutUrl": "https://radaris.com/control/privacy", "difficulty": "high" },
+  { "id": "truthfinder", "name": "TruthFinder", "searchUrl": "https://www.truthfinder.com/", "optOutUrl": "https://www.truthfinder.com/opt-out/", "difficulty": "low" },
+  { "id": "intelius", "name": "Intelius", "searchUrl": "https://www.intelius.com/", "optOutUrl": "https://www.intelius.com/opt-out/", "difficulty": "medium" },
+  { "id": "fastpeoplesearch", "name": "FastPeopleSearch", "searchUrl": "https://www.fastpeoplesearch.com/", "optOutUrl": "https://www.fastpeoplesearch.com/removal", "difficulty": "low" },
+  { "id": "peekyou", "name": "PeekYou", "searchUrl": "https://www.peekyou.com/", "optOutUrl": "https://www.peekyou.com/about/contact/optout/", "difficulty": "medium" },
+  { "id": "ussearch", "name": "USSearch", "searchUrl": "https://www.ussearch.com/", "optOutUrl": "https://www.ussearch.com/opt-out/submit/", "difficulty": "medium" },
+  { "id": "checkpeople", "name": "CheckPeople", "searchUrl": "https://www.checkpeople.com/", "optOutUrl": "https://www.checkpeople.com/opt-out", "difficulty": "low" },
+  { "id": "nuwber", "name": "Nuwber", "searchUrl": "https://nuwber.com/", "optOutUrl": "https://nuwber.com/removal/link", "difficulty": "low" },
+  { "id": "clustrmaps", "name": "ClustrMaps", "searchUrl": "https://clustrmaps.com/", "optOutUrl": "https://clustrmaps.com/bl/opt-out", "difficulty": "low" },
+  { "id": "familytreenow", "name": "FamilyTreeNow", "searchUrl": "https://www.familytreenow.com/", "optOutUrl": "https://www.familytreenow.com/optout", "difficulty": "low" }
+]
